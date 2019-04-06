@@ -5,7 +5,7 @@ const fs = require('fs')
 // })
 // console.log(path.join(__dirname, '../install/README.md'))
 module.exports = {
-  base:'/beesDoc/',
+  base:'/',
   title: 'bees',
   description: '一个有意思的ui库',
   themeConfig: {
