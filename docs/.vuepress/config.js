@@ -5,7 +5,7 @@ const fs = require('fs')
 // })
 // console.log(path.join(__dirname, '../install/README.md'))
 module.exports = {
-  base:'/',
+  base:'/beesDoc/',
   title: 'bees',
   description: '一个有意思的ui库',
   themeConfig: {
@@ -22,7 +22,25 @@ module.exports = {
           '/components/checkbox/',
           '/components/checkbox-group/',
           '/components/datePicker/',
-          '/components/dialog/'
+          '/components/dialog/',
+          '/components/circle/',
+          '/components/loading/',
+          '/components/message/',
+          '/components/pagination/',
+          '/components/progress/',
+          '/components/radio/',
+          '/components/radio-group/',
+          '/components/select/',
+          '/components/slider/',
+          '/components/steps/',
+          '/components/sticky/',
+          '/components/swiper/',
+          '/components/switch/',
+          '/components/table/',
+          '/components/tabs/',
+          '/components/tag/',
+          '/components/tooltip/',
+          '/components/upload/',
         ]
       },
     ]
